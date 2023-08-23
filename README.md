@@ -264,16 +264,17 @@ fig = go.Figure(data=go.Heatmap(
     
                    hoverongaps = False))
 fig.show()
+```
 ![Heatmap](https://github.com/Maxguy0218/Spotify-Song-Recommender-System/assets/118455375/82902b1b-d468-4720-9911-c7fbef3dcdb3)
 
 
 
-
+```python
 
 # Removeing all the rows with no song name
 
 
-```python
+
 data=data.dropna(subset=['song_name'])
 ```
 
